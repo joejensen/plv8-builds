@@ -26,7 +26,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.10.14
+          python-version: 3.12.2
 
       - name: Get Target V8 version
         id: version
@@ -89,7 +89,7 @@ jobs:
       - name: Setup python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.10.14
+          python-version: 3.12.2
 
       - name: Install MSVC/MCBuild (Windows)
         if: runner.os == 'Windows'
